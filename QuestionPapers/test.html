@@ -1,0 +1,48 @@
+<html>
+<title>Question_Papers_Retrival</title>
+<body >
+
+
+  <div class="simpleslide100">
+    <div class="simpleslide100-item bg-img1" style="background-image: url('images/bg6.jpg'); opacity:0.89"></div>
+  </div>
+	<div class="overlay1">
+	  		<center>
+				 <img src='images/logo2.png' height="130px" width="100%"> 
+
+			</center>
+	</div>
+  
+<center>
+<div class="size1 overlay1">
+	<p 
+  class="Pqp">Previous Question Papers</p>
+  <form action="index.php" method="post" >
+
+<select  id="branch-select"  required="branch" name="branch" onchange="updateyear()">
+<option class="lt" value="" disabled selected>Branch</option>
+
+</select>
+
+
+<select  id="year-select"  required="year" name="year"  onchange="updatesubject()">
+  <option class="lt" value="" disabled selected>year</option>
+</select>
+
+
+
+<select  id="subject-select"  required="subject" name="subject" >
+  <option class="lt" value="" disabled selected>subject</option>
+</select>
+
+<br>
+<br>
+<br>
+
+<input type="submit" name="submit" value="Search" class="btn">
+</form>
+</div>
+</center>
+<script type="text/javascript" src="test1.js"></script>
+</body>
+</html>
